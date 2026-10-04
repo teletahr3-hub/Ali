@@ -8,7 +8,7 @@ database_name = "telegram_bot"
 database_id = "f766ac30-8d5d-4684-9301-dbfd874e7139"
 
 [vars]
-ADMIN_IDS = "123456789"
+ADMIN_IDS = "6668195885"
 MAX_GRADE = "100"
 PASS_PERCENT = "50"
 SUBJECT_NAME = "اللغة العربية"
