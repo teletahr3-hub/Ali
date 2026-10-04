@@ -1,0 +1,19 @@
+name = "al-ikhwa-results"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+# معرّفات تيليجرام للمشرفين (مفصولة بفاصلة). اعرف معرفك من البوت: أرسل /start وسيعرضه لك
+ADMIN_IDS = "123456789"
+MAX_GRADE = "100"
+PASS_PERCENT = "50"
+SUBJECT_NAME = "اللغة العربية"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "al-ikhwa-results-db"
+database_id = "ضع-هنا-database_id-الذي-يظهر-بعد-إنشاء-القاعدة"
+
+# الأسرار تُضاف بالأوامر (لا تكتبها هنا):
+#   npx wrangler secret put BOT_TOKEN
+#   npx wrangler secret put WEBHOOK_SECRET
